@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="To-do-list.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Imoporting Link For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body>
+    <div class="Background">
+      <div class="Input-Section">
+        <input type="text" placeholder="#Add a Task">
+      </div>
+      <div class="Input-Section">
+        <input type="text" placeholder="Description">
+      </div>
+      <div class="Input-Section">
+        <input type="date" placeholder="Deadline">
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
+        </div>
+        <button class="clear-btn">Delete List</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+
+    <script src="To-do-list.js"></script>
+
+  </body>
+</html>
